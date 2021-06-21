@@ -1,0 +1,22 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "browser": false,
+    "node": true
+  },
+  "plugins": ["sonarjs", "node", "prettier"],
+  "extends": [
+    "plugin:node/recommended",
+    "plugin:sonarjs/recommended",
+    "airbnb-base",
+    "airbnb",
+    "prettier"
+  ],
+  "rules": {
+    "no-shebang": "off",
+    "node/no-unsupported-features/node-builtins": "off",
+    "no-return-await": "off",
+    "prettier/prettier": "error"
+  }
+}

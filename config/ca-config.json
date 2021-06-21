@@ -1,0 +1,39 @@
+{
+  "signing": {
+    "default": {
+      "expiry": "8640h"
+    },
+    "profiles": {
+      "intermediate": {
+        "expiry": "43200h",
+        "is_ca": true,
+        "ca_constraint": {
+          "is_ca": true,
+          "max_path_len": 0,
+          "max_path_len_zero": true
+        },
+        "key": {
+          "algo": "ecdsa",
+          "size": 384
+        },
+        "usages": ["signing", "key encipherment", "cert sign", "crl sign"]
+      },
+      "server": {
+        "expiry": "8640h",
+        "key": {
+          "algo": "ecdsa",
+          "size": 256
+        },
+        "usages": ["signing", "key encipherment", "server auth"]
+      },
+      "client": {
+        "expiry": "4320h",
+        "key": {
+          "algo": "ecdsa",
+          "size": 256
+        },
+        "usages": ["signing", "key encipherment", "client auth"]
+      }
+    }
+  }
+}
