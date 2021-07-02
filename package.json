@@ -21,7 +21,7 @@
     "ip": "^1",
     "ip-cidr": "^3",
     "lodash": "^4",
-    "md-to-pdf": "^3",
+    "md-to-pdf": "^4",
     "secure-random-password": "^0",
     "validator": "^13"
   },
