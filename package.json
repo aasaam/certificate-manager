@@ -26,7 +26,7 @@
     "validator": "^13"
   },
   "devDependencies": {
-    "@types/node": "^15",
+    "@types/node": "^16",
     "eslint": "^7",
     "eslint-config-airbnb": "^18",
     "eslint-config-airbnb-base": "^14",
