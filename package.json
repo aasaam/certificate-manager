@@ -16,7 +16,7 @@
     "@aasaam/information": "^0",
     "await-to-js": "^3",
     "chalk": "^4",
-    "commander": "^8",
+    "commander": "^9",
     "inquirer": "^8",
     "ip": "^1",
     "ip-cidr": "^3",
