@@ -9,12 +9,6 @@
     <a href="https://github.com/aasaam/certificate-manager/actions/workflows/test.yml">
       <img alt="test" src="https://github.com/aasaam/certificate-manager/actions/workflows/test.yml/badge.svg">
     </a>
-    <a href="https://david-dm.org/aasaam/certificate-manager">
-      <img alt="David" src="https://img.shields.io/david/aasaam/certificate-manager">
-    </a>
-    <a href="https://david-dm.org/aasaam/certificate-manager?type=dev">
-      <img alt="David" src="https://img.shields.io/david/dev/aasaam/certificate-manager">
-    </a>
     <a href="https://github.com/aasaam/certificate-manager/blob/master/LICENSE">
       <img alt="License" src="https://img.shields.io/github/license/aasaam/certificate-manager">
     </a>

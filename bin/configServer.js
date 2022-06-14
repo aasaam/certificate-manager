@@ -3,7 +3,7 @@ const { resolve } = require('path');
 
 const ip = require('ip');
 const IpCidr = require('ip-cidr');
-const { uniq } = require('lodash');
+const { uniq, size } = require('lodash');
 const inquirer = require('inquirer');
 
 const outputDir = resolve(`${process.env.PROJECT_PATH}/output`);
@@ -153,7 +153,7 @@ const questions = [
       let valid = true;
       list.forEach((i) => {
         const cidr = new IpCidr(i);
-        if (!cidr.isValid()) {
+        if (cidr.size < 1 || cidr.size > 16777216) {
           valid = false;
         }
       });
