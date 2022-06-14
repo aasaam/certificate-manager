@@ -16,7 +16,7 @@ jobs:
 
       - uses: actions/checkout@v2
       - name: dep-check
-        uses: tj-actions/depcheck@v7.2
+        uses: tj-actions/depcheck@v8
         with:
           ignores: 'eslint*,prettier,@types/node'
 
