@@ -3,7 +3,7 @@ const { resolve } = require('path');
 
 const ip = require('ip');
 const IpCidr = require('ip-cidr');
-const { uniq, size } = require('lodash');
+const { uniq } = require('lodash');
 const inquirer = require('inquirer');
 
 const outputDir = resolve(`${process.env.PROJECT_PATH}/output`);

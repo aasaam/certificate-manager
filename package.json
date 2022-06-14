@@ -22,7 +22,7 @@
     "ip-cidr": "^3",
     "lodash": "^4",
     "md-to-pdf": "^5",
-    "secure-random-password": "^0.2.3",
+    "secure-random-password": "^0",
     "validator": "^13"
   },
   "devDependencies": {
