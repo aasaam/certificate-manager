@@ -17,7 +17,7 @@
     "await-to-js": "^3",
     "chalk": "^4",
     "commander": "^9",
-    "inquirer": "^8",
+    "inquirer": "^9",
     "ip": "^1",
     "ip-cidr": "^3",
     "lodash": "^4",
