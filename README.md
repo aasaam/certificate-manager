@@ -15,17 +15,14 @@
   </p>
 </div>
 
-## Installation
-
-Install secure ubuntu with nodejs and install following tools.
+## Usage
 
 ```bash
-export PUPPETEER_EXECUTABLE_PATH=/snap/bin/chromium
-export PUPPETEER_SKIP_DOWNLOAD=1
-npm install
+docker-compose up -d
+docker exec -it certificate-manager /app/bin/app.js -h
 ```
 
-You also need `cfssl` and `cfssjson` for create certificates. [Download latest version](https://github.com/cloudflare/cfssl) and put into your `$PATH`.
+Data will be stored on `./output` of current directory. Save and store on secure place.
 
 <div>
   <p align="center">

@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  certificate-manager:
+    image: ghcr.io/aasaam/certificate-manager:latest
+    container_name: certificate-manager
+    hostname: certificate-manager
+    volumes:
+      - ./output:/app/output
+    entrypoint: tail -f /dev/null

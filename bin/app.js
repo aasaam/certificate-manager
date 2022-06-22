@@ -400,6 +400,9 @@ program
           body { font-family: "Courier New", Courier, monospace !important; font-size: 8px !important; }
           table { width: 100%; font-size: 8px !important; }
         `,
+        launch_options: {
+          args: ['--no-sandbox'],
+        },
         pdf_options: {
           format: 'A4',
           margin: {

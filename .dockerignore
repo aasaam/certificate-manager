@@ -1,0 +1,9 @@
+.git/
+.github/
+output/
+
+.gitignore
+.editorconfig
+.eslint*
+Dockerfile
+LICENSE

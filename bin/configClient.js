@@ -1,4 +1,4 @@
-const validator = require('validator');
+const validator = require('validator').default;
 const fs = require('fs');
 const { resolve } = require('path');
 
