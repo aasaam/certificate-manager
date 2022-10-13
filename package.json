@@ -15,7 +15,7 @@
   "dependencies": {
     "@aasaam/information": "^0",
     "await-to-js": "^3",
-    "chalk": "^4",
+    "chalk": "^5",
     "commander": "^9",
     "inquirer": "^8",
     "ip": "^1",
